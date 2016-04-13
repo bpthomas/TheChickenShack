@@ -69,8 +69,7 @@ byte buff[2];// i2c Addresse//for GY-30 light sensor
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-//char auth[] = "8e858bbe86314221bdf0e5ddf759c29c";//brian old auth code 
-char auth[] = "37459b13134524523453e"; //dan's authcode
+char auth[] = "37459b13134524523453e";
 // Set ESP8266 Serial object
 #define EspSerial Serial
 ESP8266 wifi(EspSerial);
