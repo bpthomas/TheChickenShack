@@ -1,4 +1,4 @@
-/*Brian Thomas - TheChickenShack - Copyright 2/24/2016
+/*Brian Thomas - TheChickenShack 2015
  * bpthomas4 at gmail.com
  * Used to automate a chicken coop.
  * Monitors Heat, Humidity, Heat Index and Light Saturation
