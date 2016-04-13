@@ -1,4 +1,4 @@
-/*Brian Thomas - TheChickenShack 2015
+/*Brian Thomas - TheChickenShack -  2/24/2016
  * bpthomas4 at gmail.com
  * Used to automate a chicken coop.
  * Monitors Heat, Humidity, Heat Index and Light Saturation
@@ -52,8 +52,8 @@ int lastButtonStateManualMode;
 int LiteButtonStatus;
 int FanButtonStatus;
 
-const char* ssid = "Not the cops";
-const char* password = "dec251492";
+const char* ssid = " ";
+const char* password = " ";
 WidgetLED led1(30); //LightLED in blynk app
 WidgetLED led2(31);//FanLED in blynk app
 WidgetLED led3(10);// manual mode 
@@ -70,7 +70,7 @@ byte buff[2];// i2c Addresse//for GY-30 light sensor
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
 //char auth[] = "8e858bbe86314221bdf0e5ddf759c29c";//brian old auth code 
-char auth[] = "37459b13133e4b38b6be23ea77686c1e"; //dan's authcode
+char auth[] = "37459b13134524523453e"; //dan's authcode
 // Set ESP8266 Serial object
 #define EspSerial Serial
 ESP8266 wifi(EspSerial);
